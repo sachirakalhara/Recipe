@@ -1,0 +1,73 @@
+.receip-form {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 3rem !important;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+.receip-form-label {
+  font-weight: 900;
+}
+
+.receip-form-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.receip-form-buttons button {
+  margin: 0 2rem;
+  width: 120px !important;
+}
+
+/* dropzone.css */
+
+.dropzone {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-top: 20px;
+}
+
+.dropzone .preview {
+  height: 300px;
+}
+
+.dropzone .preview-overlay {
+  position: absolute;
+  right: 0;
+}
+
+.dropzone .preview-overlay-edit,
+.dropzone .preview-overlay-delete {
+  width: 15px;
+  max-height: 15px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.dropzone .upload-image {
+  width: 100%;
+}
+
+@media (max-width: 764px) {
+  .receip-form {
+    border: none;
+    border-radius: unset;
+    box-shadow: none;
+    padding: unset;
+    margin-bottom: unset;
+    margin-top: 0 !important;
+  }
+
+  .upload-file-dropzone {
+    width: 270px;
+  }
+
+  .dropzone .preview {
+    height: unset;
+    max-height: 250px;
+  }
+}

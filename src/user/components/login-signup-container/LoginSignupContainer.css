@@ -1,0 +1,62 @@
+.login-signup {
+  color: #11294b;
+}
+
+.login-signup-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-signup-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #097280;
+  color: #fff;
+  border-top-right-radius: 30px !important;
+  border-top-left-radius: 30px !important;
+  height: 75px;
+  width: 550px;
+  margin-top: 40px;
+}
+
+.login-signup-header-title {
+  font-size: 28px;
+  font-weight: 600;
+  margin-top: 0;
+}
+
+.login-signup-content {
+  background: #fff;
+  box-shadow: 0 1px 11px rgba(0, 0, 0, 0.27);
+  border-radius: 2px;
+  width: 550px;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  padding: 35px;
+  margin-bottom: 40px;
+  padding-top: 55px;
+  border-bottom-right-radius: 8px !important;
+  border-bottom-left-radius: 8px !important;
+}
+
+@media (max-width: 764px) {
+  .login-signup-header {
+    border-top-right-radius: 20px !important;
+    border-top-left-radius: 20px !important;
+    width: 85%;
+  }
+
+  .login-signup-header-title {
+    font-size: 26px;
+  }
+
+  .login-signup-content {
+    width: 85%;
+  }
+}
